@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+
+
+.venv/
+venv/
+
+logs/
+*.glog
+*.plog
+tournament_cache.json
+tournament_results*.json
