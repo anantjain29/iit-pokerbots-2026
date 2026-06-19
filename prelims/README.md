@@ -5,7 +5,7 @@ submitted bot for IIT PokerBots 2026.
 
 ## Contents
 
-- `final.py`: submitted preliminary bot
+- `final_bot.py`: submitted preliminary bot
 - `engine.py`: organizer-provided match engine
 - `pkbot/`: organizer-provided bot protocol
 - `tournament.py`: parallel round-robin evaluation harness
@@ -33,7 +33,7 @@ cd prelims
 python3 engine.py
 ```
 
-`config.py` defaults to self-play between two instances of `final.py`.
+`config.py` defaults to self-play between two instances of `final_bot.py`.
 
 Run a single tournament pairing:
 

@@ -5,7 +5,7 @@ bot for IIT PokerBots 2026.
 
 ## Contents
 
-- `bots/final.py`: submitted finals bot
+- `bots/final_bot.py`: submitted finals bot
 - `bots/experiments/`: earlier strategy variants
 - `bots/pkbot/`: organizer-provided bot protocol
 - `engine.py`: organizer-provided match engine
@@ -34,7 +34,7 @@ cd finals
 python3 engine.py
 ```
 
-`config.py` defaults to self-play between two instances of `bots/final.py`.
+`config.py` defaults to self-play between two instances of `bots/final_bot.py`.
 
 Run a single tournament pairing:
 

@@ -14,8 +14,8 @@ The competition organizers supplied the game engines, protocol packages, and pro
 
 | Stage   | Variant            | Submitted bot                                  | Main idea                                                                                         |
 | ------- | ------------------ | ---------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| Prelims | Sneak Peek Hold'em | [`prelims/final.py`](prelims/final.py)         | Equity estimation, auction pricing, opponent adaptation, and position-aware betting               |
-| Finals  | Anaconda Hold'em   | [`finals/bots/final.py`](finals/bots/final.py) | Card-exchange optimization, card tracking, exact equity when possible, and selective trap betting |
+| Prelims | Sneak Peek Hold'em | [`prelims/final_bot.py`](prelims/final_bot.py)         | Equity estimation, auction pricing, opponent adaptation, and position-aware betting               |
+| Finals  | Anaconda Hold'em   | [`finals/bots/final_bot.py`](finals/bots/final_bot.py) | Card-exchange optimization, card tracking, exact equity when possible, and selective trap betting |
 
 ## Strategy and Evaluation
 
@@ -44,13 +44,13 @@ I then backtested the generated tiered policy against recorded auctions before p
 ```text
 .
 |-- prelims/                 # Sneak Peek Hold'em engine and submitted bot
-|   |-- final.py
+|   |-- final_bot.py
 |   |-- analyze_auction.py
 |   |-- tournament.py
 |   `-- pkbot/               # Organizer-supplied bot protocol
 |-- finals/                  # Anaconda Hold'em engine and submitted bot
 |   |-- bots/
-|   |   |-- final.py
+|   |   |-- final_bot.py
 |   |   |-- experiments/
 |   |   `-- pkbot/           # Organizer-supplied bot protocol
 |   `-- tournament.py

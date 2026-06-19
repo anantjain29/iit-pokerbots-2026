@@ -569,7 +569,7 @@ def find_tiers(data, off_global, def_global, m, c, n_tiers=5):
 
 # GENERATE CODE
 def generate_code(m, c, tier_results):
-    section("RECOMMENDED AUCTION CODE  (paste into final.py)")
+    section("RECOMMENDED AUCTION CODE  (paste into final_bot.py)")
 
     sorted_tiers = sorted(tier_results, key=lambda t: t['avg_eq'], reverse=True)
 

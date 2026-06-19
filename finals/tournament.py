@@ -21,8 +21,8 @@ CACHE_FILE      = os.path.join(PROJECT_DIR, "tournament_cache.json")
 
 # Entries are (display name, path relative to bots/); an empty list enables discovery.
 BOTS: list[tuple[str, str]] = [
-    ("FinalA", "final.py"),
-    ("FinalB", "final.py"),
+    ("FinalA", "final_bot.py"),
+    ("FinalB", "final_bot.py"),
 ]
 
 DEFAULT_MAX_DRAW_RETRIES  = 3    # lowered from 10 - draws are rare

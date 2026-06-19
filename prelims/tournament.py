@@ -14,8 +14,8 @@ import types
 from concurrent.futures import ProcessPoolExecutor, as_completed
 
 BOTS = [
-    ('FinalA', './final.py'),
-    ('FinalB', './final.py'),
+    ('FinalA', './final_bot.py'),
+    ('FinalB', './final_bot.py'),
 ]
 PROJECT_DIR      = os.path.dirname(os.path.abspath(__file__))
 ENGINE_SCRIPT    = os.path.join(PROJECT_DIR, "engine.py")
