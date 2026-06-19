@@ -26,12 +26,12 @@ They are instantiated from the files specified in `config.py`. Their names are a
 For example,
 ```python
 BOT_1_NAME = 'BotA'
-BOT_1_FILE = './example_bot.py'
+BOT_1_FILE = './bot.py'
 
 BOT_2_NAME = 'BotB'
-BOT_2_FILE= './example_bot.py'
+BOT_2_FILE = './bot.py'
 ```
-With the above config, the bots are both instantiated using the algorithms specified in `./example_bot.py` and named `BotA` and `BotB`.
+With the above config, the bots are both instantiated using the algorithms specified in `./bot.py` and named `BotA` and `BotB`.
 
 ------------------------------------------------------------------------
 

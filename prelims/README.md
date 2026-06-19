@@ -6,7 +6,6 @@ submitted bot for IIT PokerBots 2026.
 ## Contents
 
 - `final.py`: submitted preliminary bot
-- `example_bot.py`: organizer-provided baseline
 - `engine.py`: organizer-provided match engine
 - `pkbot/`: organizer-provided bot protocol
 - `tournament.py`: parallel round-robin evaluation harness
